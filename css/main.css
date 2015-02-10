@@ -147,8 +147,8 @@ div#logo
 {
 	float: left;
 	background: url(../images/logo.png) top left no-repeat;
-	width: 552px; /* must be identical "div#logo a" width */
-	height: 91px; /* must be identical for "div#logo a" height */
+	width: 472px; /* must be identical "div#logo a" width */
+	height: 92px; /* must be identical for "div#logo a" height */
 	margin-left:198px;
 }
 div#logo a
@@ -1670,5 +1670,4 @@ a.jumpLink:hover
 }
 .RadRibbonBar .rrbButtonIn { padding-bottom: 0px !important; }
 .rrbButtonIn { height: 17px !important; }
-
 
