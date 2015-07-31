@@ -33,7 +33,7 @@ body /* body tag rules affect the WYSIWYG editor interface, so apply any images/
 	line-height: 1.5;
 }
 .bodystyles /* workaround for WYSIWYG editor interface */
-{ 
+{
 	background-color: #110508;
 	color: #000;
 }
@@ -129,7 +129,7 @@ div#wrapper
 	background:url(../images/interior2-bg.jpg) center 56px no-repeat #000;
 }
 
-/*************************/ 
+/*************************/
 /****** Header Divs ******/
 /*************************/
 
@@ -177,7 +177,7 @@ div#logo h1 { margin: 0; }
 	font-weight:bold;
 	z-index:99;
 	padding-top:57px;
-	
+
 }
 #spanish {
     padding-top: 0 !important;
@@ -234,7 +234,7 @@ div#column_left
 	position: relative;
 	background-color: none;;
 	margin-left:25px;
-} 
+}
 :root #left_about_interior ul li {margin-bottom: 7px\9;}
 #homeButton {
 	font-weight:bold;
@@ -306,14 +306,14 @@ div#column_left ul li a{
 div#column_middle
 {
 	float: left;
-	width: 240px;	
+	width: 240px;
 }
 #smallContentTop {
 	background:url(../images/small-content-top.png) no-repeat top center transparent;
 	height:11px;
 	width:100%;
 	margin:0;
-	
+
 }
 *+html #smallContentTop {
 	margin-bottom:13px;
@@ -429,7 +429,7 @@ div#column_right {
 }
 #galleryQuote {
 	margin-top:10px;
-	
+
 }
 #galleryQuote p {
 	color: #FFF;
@@ -556,7 +556,7 @@ a.activeSlide {
 	font-weight:bold;
 	margin-left:8px;
 	margin-top:24px;
-	
+
 }
 #aboutInteriorTop h1, #aboutInteriorTop h2 {
 	float:left;
@@ -796,7 +796,7 @@ div#auctori_logo a
 	float: left;
 	margin: 0;
 }
-.menu li.top_level:hover > a { 
+.menu li.top_level:hover > a {
 	color: #fff;
 	}
 /* Hide and show menu */
@@ -909,7 +909,7 @@ div#auctori_logo a
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:1.6em;
 	width:140px;
-	
+
 }
 .menu_v a.top_level:hover {
 	color:#BA0C2F !important;
@@ -924,6 +924,11 @@ div#auctori_logo a
 	padding-bottom: 20px !important;
 	z-index: 100;
 }
+
+.menu_v .submenu-news {
+	top: 100px;
+}
+
 .menu_v .submenu li a {
 	color: #fff;
 	padding: 0 20px 0 20px !important;
@@ -958,7 +963,7 @@ div#auctori_logo a
 	background:#000;
 	min-height:100px;
 
-	
+
 }
 /******************************************************************************/
 /***************************Interior Secondary Menu****************************/
@@ -969,7 +974,7 @@ div#auctori_logo a
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:normal;
 	line-height:15px;
-	
+
 }
 #column_left_interior .menu {
 	background-color:#000;
@@ -1260,15 +1265,15 @@ div#auctori_logo a
 }
 
 /**********************/
-/****** Articles ******/ 
+/****** Articles ******/
 /**********************/
 
 .mArticleListTitle, .mArticleListLongTitle, .mArticleListDateOfArticle { margin: .5em 0; }
 .mArticleListTitle { font-weight: bold; }
-.mArticleListLongTitle { font-style: italic; } 
+.mArticleListLongTitle { font-style: italic; }
 
 /***********************/
-/****** Biography ******/ 
+/****** Biography ******/
 /***********************/
 
 /*--------------*/
@@ -1311,7 +1316,7 @@ div#auctori_logo a
 
 #images
 {
-	float: right; 
+	float: right;
 	width: 100%;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
@@ -1340,7 +1345,7 @@ div#auctori_logo a
 }
 
 /*****************************/
-/****** Forgot Password ******/ 
+/****** Forgot Password ******/
 /*****************************/
 
 #ctl00_content2_ctl07_divChangePassword input[type='text']
@@ -1350,7 +1355,7 @@ div#auctori_logo a
 }
 
 /************************/
-/****** My Account ******/ 
+/****** My Account ******/
 /************************/
 
 .myAccountDashboard { margin-bottom: 1em; }
@@ -1366,7 +1371,7 @@ div#auctori_logo a
 
 
 /*************************/
-/****** Site Search ******/ 
+/****** Site Search ******/
 /*************************/
 .siteSearchButton {
     float: left;
@@ -1409,7 +1414,7 @@ div#auctori_logo a
 }
 .siteSearchTextBox{
 	float: left;
-	
+
 }
 .siteSearchButton a {
     -moz-border-bottom-colors: none;
@@ -1467,7 +1472,7 @@ div#auctori_logo a
 /*---------*/
 #left_about_interior .mSiteSearch {
 	float:left;
-	
+
 }
 #left_about_interior .itemTitle a {
     color: #000000;
@@ -1490,7 +1495,7 @@ a.jumpLink
 {
 	border: 1px solid #999;
 	margin-right: .5em;
-	padding: .5em; 
+	padding: .5em;
 	text-decoration: none;
 }
 a.jumpLink:hover
@@ -1515,7 +1520,7 @@ a.jumpLink:hover
     text-decoration: none;
     text-transform: capitalize;
 	display:inline;
-	
+
 }
 #searchResultsScrollingDiv .itemURL a
 {
@@ -1524,7 +1529,7 @@ a.jumpLink:hover
     width: 430px;
 }
 /******************************/
-/****** Document Library ******/ 
+/****** Document Library ******/
 /******************************/
 
 /********JS PANEL************/
@@ -1670,4 +1675,3 @@ a.jumpLink:hover
 }
 .RadRibbonBar .rrbButtonIn { padding-bottom: 0px !important; }
 .rrbButtonIn { height: 17px !important; }
-
